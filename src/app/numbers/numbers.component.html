@@ -1,0 +1,13 @@
+<h2>Numbers</h2>
+<h3>Counter</h3>
+<p>{{ counter }}&nbsp;<button (click)="add()">Add</button></p>
+<h3>Random numbers</h3>
+<table>
+  <tr *ngFor="let n of getRandomNumbers()">
+    <td>{{ n }}</td>
+  </tr>
+</table>
+<h6>
+  Só sei fazer tabuada em Vanilla JS. Escrevendo em português para enfatizar a
+  tristeza.
+</h6>
